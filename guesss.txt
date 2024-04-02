@@ -1,0 +1,12 @@
+#code by TAHA ANOWAR
+import random
+number = random.randint  (1,100)
+Guess = 0
+while Guess!= number:
+    Guess = int(input("Guess the number betwen '1' to '10!'"))
+    if Guess>number:
+        print("Guess lower")
+    elif Guess<number:
+         print("Guess Highter") 
+    else:
+        print("You won")
